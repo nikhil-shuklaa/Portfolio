@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://nikhil-shuklaa.github.io/Portfolio/',
+  homepage: 'https://nikhilshukla.dev',
   title: 'NS.',
 }
 
@@ -29,12 +29,28 @@ const projects = [
     livePreview: 'https://qnai-ask2pdf.streamlit.app',
   },
   {
+    name: 'NS-Portfolio',
+    description:
+      'This is my personal portfolio website. The website is designed and developed by Me from scratch using ReactJS, and TailwindCSS. And also deployed this website on My Chemicloud Hosting.',
+    stack: ['ReactJS', 'TailwindCSS', 'Git-GitHub', 'Hosting'],
+    sourceCode: 'https://github.com/nikhil-shuklaa/Portfolio',
+    livePreview: 'https://nikhilshukla.dev',
+  },
+  {
     name: 'LAMBDA',
     description:
       'Realtime Database Face Detection Attendance System-LAMBDA is a real-time attendance system that uses face detection technology to track attendance in a database. The system works by capturing live video of individuals and comparing them to images in a pre-existing encoded database to determine if they are authorized or not. if they are, their attendance will be marked.',
     stack: ['Python', 'OpenCV', 'Firebase', 'Figma'],
     sourceCode: 'https://github.com/nikhil-shuklaa/RealtimeDatabaseFaceDetectionAttendanceSystem-LAMBDA',
-    livePreview: 'https://github.com/nikhil-shuklaa/RealtimeDatabaseFaceDetectionAttendanceSystem-LAMBDA',
+    livePreview: '',
+  },
+  {
+    name: 'HelpingGeeks Websites',
+    description:
+      'I have 3 years of experience as a WordPress developer, specializing in custom theme and plugin development, ensuring optimal performance and responsive design. In previous roles, I have designed and developed custom WordPress themes, created and customized plugins, and performed regular site maintenance, delivering fully functional websites for NGOs, businesses, and companies.',
+    stack: ['Wordpress', 'SEO', 'PHP', 'JavaScript', 'HTML', 'CSS'],
+    sourceCode: '',
+    livePreview: 'HelpingGeeks.com',
   },
   {
     name: 'Websites',
@@ -44,6 +60,14 @@ const projects = [
     sourceCode: '',
     livePreview: 'https://drive.google.com/file/d/1W0QXOSyKNVL42_qfDQdKVxndcsa1m0mE/view?usp=sharing',
   },
+  {
+    name: 'Websites',
+    description:
+      'I have 3 years of experience as a WordPress developer, specializing in custom theme and plugin development, ensuring optimal performance and responsive design. In previous roles, I have designed and developed custom WordPress themes, created and customized plugins, and performed regular site maintenance, delivering fully functional websites for NGOs, businesses, and companies.',
+    stack: ['Wordpress', 'SEO', 'PHP', 'JavaScript', 'HTML', 'CSS'],
+    sourceCode: '',
+    livePreview: 'https://drive.google.com/file/d/1W0QXOSyKNVL42_qfDQdKVxndcsa1m0mE/view?usp=sharing',
+  }
 ]
 
 const skills = [
